@@ -7,11 +7,16 @@ function KegDetail(props) {
   return (
     <React.Fragment>
       <h2>Keg Details</h2>
-      {keg.name}
-      {keg.brand}
-      {keg.price}
-      {keg.alcoholContent}
-      {keg.pintsRemaining}
+      Beer Name: {keg.name}
+      <br/>
+      Brewery: {keg.brand}
+      <br/>
+      Price: {keg.price}
+      <br/>
+      Alcohol Content: {keg.alcoholContent}
+      <br/>
+      Pints Remaining: {keg.pintsRemaining}
+      <hr/>
     </React.Fragment>
   );
 }
