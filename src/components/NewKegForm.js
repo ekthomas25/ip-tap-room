@@ -6,7 +6,7 @@ function NewKegForm(props) {
 
   function handleNewKegFormSubmit(event) {
     event.preventDefault();
-    props.onNewKegCreation({name: event.target.name.value, brand: event.target.brand.value, price: event.target.price.value, alcoholContent: event.target.price.value, pintsRemaining: 124, id: v4() })
+    props.onNewKegCreation({name: event.target.name.value, brand: event.target.brand.value, price: event.target.price.value, alcoholContent: event.target.alcoholContent.value, pintsRemaining: 124, id: v4() })
   }
 
   return (
@@ -25,12 +25,16 @@ function NewKegForm(props) {
         <input
             type="number"
             name="price"
+            min='0'
+            step=".01"
             placeholder="Price/Pint"
         />
         <input
             type="number"
             name="alcoholContent"
-            placeholder="Price/Pint"
+            min='0'
+            step='.1'
+            placeholder="alcoholContent"
         />
       <button type='submit'>Submit</button>
       </form>
