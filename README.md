@@ -15,7 +15,7 @@
 
 
 ## Description
-
+This is a React application that keeps track of kegs that are added to a tap room. The app allows the user to add new kegs, view keg details, delete kegs, and track how much left is in a keg in remaining pints.
 
 ## Setup/Installation Requirements
 
