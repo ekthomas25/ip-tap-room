@@ -9,7 +9,7 @@ function Header() {
     height: '6em',
     marginTop: '-1.4em',
     marginBottom: '3em',
-    paddingTop: '1.4em',
+    paddingTop: '1.9em',
     paddingLeft: '1.4em',
   }
   return (
