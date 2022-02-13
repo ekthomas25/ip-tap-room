@@ -33,7 +33,7 @@ This is a React application that keeps track of kegs that are added to a tap roo
 * _Open the terminal in VSCode and navigate to_ `ip-tap-room` _and type the following command:_ `npm install`
 * _To view the project enter the following command in your terminal: `npm run start`_
 
-
+<img src='src/img/tap-room-diagram.png' alt="A component diagram of this app" />
 
 ## Known Bugs
 
