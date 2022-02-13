@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function KegList(props) {
   return (
     <React.Fragment>
-      
+      <h2>Currently on Tap:</h2>
         {props.kegList.map((keg) =>
           <Keg
             whenKegClicked = {props.onKegSelection}
