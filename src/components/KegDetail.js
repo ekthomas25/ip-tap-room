@@ -15,17 +15,20 @@ function KegDetail(props) {
   return (
     <React.Fragment>
       <h2>Keg Details</h2>
-      Beer Name: {keg.name}
-      <br/>
-      Brewery: {keg.brand}
-      <br/>
-      Price: ${keg.price}
-      <br/>
-      Alcohol Content: {keg.alcoholContent}%
-      <br/>
-      Pints Remaining: {keg.pintsRemaining} {kegStatus}
-      <button onClick={()=> onClickingDelete(keg.id)}>Remove Keg</button>
-      <button onClick={()=> onClickingSell(keg.id)}>Sell Pint</button>
+      <div className="detailsStyle">
+        Beer Name: &nbsp;&nbsp; {keg.name}
+        <br/>
+        Brewery: &nbsp;&nbsp; {keg.brand}
+        <br/>
+        Price: &nbsp;&nbsp; ${keg.price}
+        <br/>
+        Alcohol Content: &nbsp;&nbsp; {keg.alcoholContent}%
+        <br/>
+        Pints Remaining: &nbsp;&nbsp; {keg.pintsRemaining} {kegStatus}
+        <br />
+      </div>
+      <button className="secondaryBtn" onClick={()=> onClickingDelete(keg.id)}>REMOVE KEG</button>
+      <button className="sellPintBtn" onClick={()=> onClickingSell(keg.id)}>SELL PINT</button>
       <hr/>
     </React.Fragment>
   );
