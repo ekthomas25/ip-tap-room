@@ -3,20 +3,21 @@ import LiversLogo from '../img/9livers-logo.png';
 
 function Header() {
   const headerStyle = {
-    backgroundColor:'#3E3E3E',
+    backgroundColor:'#000000',
     color:'#FFFFFF',
     top: '0',
     width: '100%',
-    height: '8em',
+    height: 'maxContent',
     marginTop: '-1.4em',
     marginBottom: '3em',
     paddingTop: '2.2em',
+    paddingBottom: '1em',
     paddingLeft: '1.4em',
   }
   return (
     <React.Fragment>
       <div style={headerStyle}>
-        <h1> <img className="logo" src={LiversLogo} alt="A cat holding a beer" /> Nine Livers Tap Room</h1>
+        <h1> <img className="logo" src={LiversLogo} alt="A cat holding a beer" /> Nine Livers Brewing</h1>
       </div>
       <br/>
     </React.Fragment>
