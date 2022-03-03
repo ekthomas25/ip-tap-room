@@ -1,8 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,20 +10,120 @@ code {
 }
 
 body {
-  background-color: #CAF0F8
+  background-color: #f8f4ca;
+  background-image: url("/src/img/9liverscatbackground@0.25x.png");
+  height: 200px;
+  color: beige;
+  font-family: 'Lato';
 }
 
 .controlStyle {
-  background-color: #90E0EF;
+  background-color: #161613;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 4em;
-  padding: 3em;
-  height:30em;
+  padding: 3.5em;
+  height: max-content;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
 }
 
 .logo {
   width: 2em;
   margin-left: 1em;
   margin-right: 1em;
+}
+
+button {
+  background-color: #000000;
+  padding: 1em;
+  border: 1.5px solid #f0a519;
+  border-radius: 10px;
+  color: rgb(221, 221, 221);
+  font-family: 'Lato';
+  font-weight: 300;
+  margin: 1em;
+}
+
+button:hover {
+  background-color: #1f1c1a;
+  border: 1.5px solid rgb(255, 230, 148);
+}
+
+.secondaryBtn {
+  background-color: #110e0c;
+  padding: .75em;
+  border: 1px solid rgb(255, 230, 148);
+  border-radius: 7px;
+}
+
+.secondaryBtn:hover {
+  background-color: #d8910c;
+  padding: .75em;
+  border: 1px solid rgb(255, 230, 148);
+  border-radius: 7px;
+}
+
+.sellPintBtn {
+  background-color: rgb(240, 188, 93);
+  padding: .75em;
+  border: 1px solid #f0a519;
+  color: #110e0c;
+  border-radius: 7px;
+}
+.sellPintBtn:hover {
+  background-color: #f0a519;
+  padding: .75em;
+  border: 1px solid #f0a519;
+  color: #110e0c;
+  border-radius: 7px;
+}
+
+input {
+  padding: .5em;
+  border-radius: 5px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#beerName {
+  width: 100%;
+}
+
+#beerBrewery {
+  width: 100%;
+}
+
+#beerPrice {
+  margin-right: 2em;
+}
+
+#beerContent {
+  margin-right: 2em;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: #f0a519;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Bebas Neue';
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+  padding-bottom: .5em;
+}
+
+.listStyle {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.detailsStyle {
+  font-size: 1.4em;
+  line-height: 1.9em;
+  padding-left: 1em;
+  padding-bottom: 1em;
 }
