@@ -14,9 +14,9 @@ function Keg(props) {
 
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenKegClicked(props.id)}>
+      <div className="listStyle" onClick = {() => props.whenKegClicked(props.id)}>
       <hr/>
-        {props.name} - {props.brand} - ${props.price} - {props.alcoholContent}% {kegStatus}
+        {props.name} &nbsp;&nbsp; - &nbsp;&nbsp; {props.brand} &nbsp;&nbsp; - &nbsp;&nbsp; ${props.price} &nbsp;&nbsp; - &nbsp;&nbsp; {props.alcoholContent}% &nbsp;&nbsp; {kegStatus}
       </div>
     </React.Fragment>
   )
