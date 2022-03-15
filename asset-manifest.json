@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ip-tap-room/static/css/main.10f0a1e2.css",
+    "main.js": "/ip-tap-room/static/js/main.ed236c9d.js",
+    "static/js/787.6526b9ae.chunk.js": "/ip-tap-room/static/js/787.6526b9ae.chunk.js",
+    "static/media/9livers-logo.png": "/ip-tap-room/static/media/9livers-logo.0eab2c36a0b48ba247be.png",
+    "static/media/9liverscatbackground@0.25x.png": "/ip-tap-room/static/media/9liverscatbackground@0.25x.ac06563fd2330cb37f1c.png",
+    "index.html": "/ip-tap-room/index.html",
+    "main.10f0a1e2.css.map": "/ip-tap-room/static/css/main.10f0a1e2.css.map",
+    "main.ed236c9d.js.map": "/ip-tap-room/static/js/main.ed236c9d.js.map",
+    "787.6526b9ae.chunk.js.map": "/ip-tap-room/static/js/787.6526b9ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10f0a1e2.css",
+    "static/js/main.ed236c9d.js"
+  ]
+}
